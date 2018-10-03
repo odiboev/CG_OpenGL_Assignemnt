@@ -24,7 +24,7 @@ int main() {
 	glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
 
 	//Create a GLWwindow object that we can use for GLFW's functions
-	GLFWwindow *window = glfwCreateWindow(WIDTH, HEIGHT, "ComputerGraphics Assinment", nullptr, nullptr);
+	GLFWwindow *window = glfwCreateWindow(WIDTH, HEIGHT, "OpenGL Testing", nullptr, nullptr);
 
 	int screenWidth, screenHeight;
 	glfwGetFramebufferSize(window, &screenWidth, &screenHeight);
